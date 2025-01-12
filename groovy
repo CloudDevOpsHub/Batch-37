@@ -2,7 +2,7 @@ Linux Pipeline Code
 
 pipeline {
 
-}agent any
+agent any
 
     stages {
         stage('Git clone from GITHUB') {
@@ -21,6 +21,7 @@ pipeline {
             }
         }
     }
+}
 
 
 Window's 
